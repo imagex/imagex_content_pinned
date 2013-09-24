@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Imagex Content  - Pinned feature.
+ */
+
+include_once 'imagex_content_pinned.features.inc';
