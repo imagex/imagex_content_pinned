@@ -6,7 +6,7 @@
 
 /**
  * Implements hook_form_alter
- * Renames Sticky node-edit column, to 'Pinned' fo all content types
+ * Renames Sticky node-edit column, to 'Pinned' for all content types
  */
 function imagex_content_pinned_form_alter(&$form, &$form_state, $form_id) {
   
