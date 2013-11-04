@@ -1,5 +1,5 @@
 name = Content  - Pinned
-description = Provides administrative panel enabling administrators the ability to 'Pin' content to the top of featured lists, by marking content as 'Featured'.
+description = Provides administrative panel enabling administrators the ability to 'Pin' content to the top of featured lists, by marking content as 'Sticky'.
 core = 7.x
 package = ImageX
 php = 5.2.4

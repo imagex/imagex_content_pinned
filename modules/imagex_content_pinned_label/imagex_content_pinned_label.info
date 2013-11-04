@@ -1,0 +1,4 @@
+name = Pinned Label
+description =  Changed node form label value for 'Make Sticky' to 'Pin to Home Page'.
+core = 7.x
+dependencies[] = imagex_content_pinned

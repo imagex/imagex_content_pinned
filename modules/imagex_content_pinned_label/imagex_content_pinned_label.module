@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * 
+ */
+
+/**
+ * Implements hook_form_alter
+ * Renames Sticky node-edit column, to 'Pinned' for all content types
+ */
+function imagex_content_pinned_form_alter(&$form, &$form_state, $form_id) {
+  
+  if(isset($form['type']['#value'])){
+
+    $this_formid = $form['type']['#value'] . '_node_form';
+
+    if($form_id == $this_formid) {
+       $form['options']['sticky']['#title'] = 'Pinned' ;
+    }
+  }
+}
